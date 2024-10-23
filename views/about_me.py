@@ -13,7 +13,7 @@ with col1:
 with col2:
     st.title("Lanre Adetola", anchor=False)
     st.write(
-        "Data Analyst Intern, seeeking to assist enterprises by supporting data-driven decision-making."
+        "Data Analyst/Data Scientist Intern, seeking to assist enterprises by supporting data-driven decision-making."
     )
     if st.button(" Contact Me"):
         show_contact_form()
