@@ -13,9 +13,12 @@ html = pd.read_html(url, header=1)
 df = html[0]
 df = df[:-2]  # Drop the last two rows for cleaner data
 
-# Split the 'Pos' column into primary and secondary positions
-df['Primary Pos'] = df['Pos'].apply(lambda x: x.split(',')[0].strip())
-df['Secondary Pos'] = df['Pos'].apply(lambda x: ', '.join(x.split(',')[1:]).strip() if ',' in x else None)
+# Ensure we are working with a copy of the DataFrame slice
+df = df.copy()
+
+# Update 'Primary Pos' and 'Secondary Pos' using .loc
+df.loc[:, 'Primary Pos'] = df['Pos'].apply(lambda x: x.split(',')[0].strip())
+df.loc[:, 'Secondary Pos'] = df['Pos'].apply(lambda x: ', '.join(x.split(',')[1:]).strip() if ',' in x else None)
 
 # Display cleaned data
 st.dataframe(df)
