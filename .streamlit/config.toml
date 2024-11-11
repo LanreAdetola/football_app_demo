@@ -1,16 +1,16 @@
 [theme]
 
-#Primary color
-primaryColor = "#d33682"
+# Primary color
+primaryColor = "#d33682"            # A vibrant magenta/pink
 
 # Background color for main area
-backgroundColor = "#002b36"
+backgroundColor = "#002b36"         # A dark teal/blue
 
-#Background for sidebar 
-secondaryBackgroundColor = "#586e75"
+# Background for sidebar 
+secondaryBackgroundColor = "#586e75" # A medium grayish-blue
 
-#color for text
-textColor = "#fff"
+# Color for text
+textColor = "#fff"                   # White text
 
 [client]
-toolbarMode = "minimal"
+toolbarMode = "minimal"              # Minimal toolbar display

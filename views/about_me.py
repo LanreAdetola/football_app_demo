@@ -25,12 +25,14 @@ st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
 st.write(
     """
-    - 3 Years experience extracting actionable insights from data 
-    - Hands-on experience and knowledge in Python and Sql 
-    - Good understanding of statistical principles and their respective applications
-    - Excellent team-player and displaying a strong sense of initiative on tasks
+    - Experienced in deriving actionable insights from complex data sets
+    - Proficient in **Python** and **SQL** for data analysis, automation, and reporting
+    - Strong understanding of **statistical principles** and their real-world applications
+    - Demonstrated ability to collaborate as a **team player** and take the **initiative** in driving projects to completion
+    - Familiar with key data visualization tools and techniques to communicate findings effectively
     """
 )
+
 
 #---Skills---
 
@@ -38,9 +40,9 @@ st.write("\n")
 st.subheader("Hard Skills", anchor=False)
 st.write(
     """
-    - Programming: Python (Scikit-learn, Pandas), SQl, VBA 
-    - Data Visualization: Power BI, MS Excel, Plotly
-    - Modeling: Logistic regression, Linear regression, Decision trees
-    - Databases: MySQL, LiteDB, MongoDB
+    - **Programming Languages**: Python (with libraries such as **Scikit-learn**, **Pandas**), **SQL**, **C#**
+    - **Data Visualization**: Expertise in **Power BI**, **MS Excel**,**Matplot** ,**Plotly** for creating interactive and insightful visualizations
+    - **Machine Learning & Modeling**: Experience with **Logistic Regression**, **Linear Regression**, **Decision Trees** for predictive modeling
+    - **Databases**: Proficient in **MySQL**, **LiteDB**, **MongoDB** for data storage and management
     """
 )

@@ -14,19 +14,38 @@ about_page = st.Page(
     icon=":material/account_circle:",
     default=True,
 )
-
 project_1_page = st.Page(
+    page="views/passing.py",
+    title="Passing Profiles",
+    icon=":material/bar_chart:",
+    
+)
+
+project_2_page = st.Page(
+    page="views/shooting.py",
+    title="Shooting Profiles",
+    icon=":material/bar_chart:",
+    
+)
+project_3_page = st.Page(
+    page="views/dna.py",
+    title="Club Profile",
+    icon=":material/bar_chart:",
+    
+)
+
+project_4_page = st.Page(
     page="views/genk.py",
-    title="Genk Player Profiles",
+    title="2023/24 Genk Player Profiles",
     icon=":material/bar_chart:",
     
 )
 
 # --- Navigation -----
-pg = st.navigation(
+pg = st.navigation( 
     {
         "Info": [about_page],
-         "Projects": [project_1_page],
+         "Projects": [project_1_page, project_2_page, project_3_page, project_4_page],
     }
          )
 
