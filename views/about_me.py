@@ -13,7 +13,7 @@ with col1:
 with col2:
     st.title("Lanre Adetola", anchor=False)
     st.write(
-        "Data Scientist Student Intern, seeking to assist enterprises by supporting data-driven decision-making."
+        "Data Science Student Intern, seeking to assist enterprises by supporting data-driven decision-making."
     )
     st.write(
         "**Email**: r0913836@student.thomasmore.be"
