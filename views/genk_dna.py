@@ -5,7 +5,7 @@ import numpy as np
 
 st.title("Jupiler Pro League - Player Performance Breakdown")
 
-url = "https://fbref.com/en/squads/1e972a99/Genk-Stats"  # Example URL
+url = "https://fbref.com/en/squads/1e972a99/2024-2025/Genk-Stats"  # Example URL
 
 # Load and preprocess data
 pd.set_option('display.max_columns', None)
