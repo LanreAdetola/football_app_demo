@@ -8,7 +8,7 @@ from adjustText import adjust_text
 st.title('Jupiler Pro League - Shooting Stats')
 
 
-url = "https://fbref.com/en/comps/37/shooting/Belgian-Pro-League-Stats#all_stats_shooting"
+url = "https://fbref.com/en/comps/37/2024-2025/shooting/2024-2025-Belgian-Pro-League-Stats"
 
 
 #Loading Data from the url
