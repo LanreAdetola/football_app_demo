@@ -5,10 +5,10 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from adjustText import adjust_text
 
-st.title('Jupiler Pro League 24/25 - Shooting Stats')
+st.title('Jupiler Pro League 25/26 - Shooting Stats')
 
 
-url = "https://fbref.com/en/comps/37/2024-2025/shooting/2024-2025-Belgian-Pro-League-Stats"
+url = "https://fbref.com/en/comps/37/shooting/Belgian-Pro-League-Stats#all_stats_shooting"
 
 
 #Loading Data from the url

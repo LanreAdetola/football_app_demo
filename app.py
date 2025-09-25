@@ -35,11 +35,26 @@ project_3_page = st.Page(
     
 )
 
+#----25/26 Season------
+project_25_page_1 = st.Page(
+    page="views/shooting25.py",
+    title="Shooting Profiles",
+    icon=":material/bar_chart:",
+    
+)
+project_25_page_2 = st.Page(
+    page="views/genk_dna_25.py",
+    title="Club Profile",
+    icon=":material/bar_chart:",
+)
+
+
 # --- Navigation -----
 pg = st.navigation( 
     {
         "Info": [about_page],
-         "Projects": [project_1_page, project_2_page, project_3_page],
+        "Season 25-26": [project_25_page_1, project_25_page_2],
+         "Season 24-25": [project_1_page, project_2_page, project_3_page],
     }
          )
 
