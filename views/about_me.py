@@ -13,7 +13,11 @@ with col1:
 with col2:
     st.title("Lanre Adetola", anchor=False)
     st.write(
+<<<<<<< HEAD
         "Data Scientist Student Intern, seeking to learn and assist enterprises by supporting data-driven decision-making."
+=======
+        "Data Science Student Intern, seeking to assist enterprises by supporting data-driven decision-making."
+>>>>>>> 23a38ffb30cda27d7d0895a66d4a51278fc03d9b
     )
     st.write(
         "**Email**: r0913836@student.thomasmore.be"
@@ -46,6 +50,10 @@ st.write(
     - **Programming Languages**: Python (with libraries such as **Scikit-learn**, **Pandas**), **SQL**
     - **Data Visualization**: Profficent in **Matplotlib**, **Plotly**, **Seaborn** for creating interactive and insightful visualizations
     - **Machine Learning & Modeling**: Experience with **Logistic Regression**, **Linear Regression**, **Decision Trees** etc for predictive modeling
+<<<<<<< HEAD
     - **Databases**: Proficient in **MySQL**, **LiteDB**, **CosmosDB** for data storage and management, with hands-on experience in Azure SQL Database, Azure Cosmos DB, and Azure Data Lake for cloud-based data solutions and scalability.
+=======
+    - **Databases**: Proficient in **MySQL**, **LiteDB**, **MongoDB** for data storage and management, with hands-on experience in Azure SQL Database, Azure Cosmos DB, and Azure Data Lake for cloud-based data solutions and scalability.
+>>>>>>> 23a38ffb30cda27d7d0895a66d4a51278fc03d9b
     """
 )
