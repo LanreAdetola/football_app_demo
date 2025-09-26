@@ -5,11 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from adjustText import adjust_text
 
-<<<<<<< HEAD
-st.title('Jupiler Pro League 24/25 - Shooting Stats')
-=======
-st.title('Jupiler Pro League - Shooting Stats')
->>>>>>> 23a38ffb30cda27d7d0895a66d4a51278fc03d9b
 
 
 url = "https://fbref.com/en/comps/37/2024-2025/shooting/2024-2025-Belgian-Pro-League-Stats"
@@ -344,14 +339,3 @@ if df is not None:
     goal_conversion_efficiency(df)
     st.markdown("---")
 
-
-
-
-
-#Unused code
-#plot_team_goals_scatter(df)
-<<<<<<< HEAD
-#st.markdown("---")
-=======
-#st.markdown("---")
->>>>>>> 23a38ffb30cda27d7d0895a66d4a51278fc03d9b
