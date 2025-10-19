@@ -27,10 +27,10 @@ st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
 st.write(
     """
-    -Dive into player performance analytics powered by the Microsoft Cloud.
-    -From raw stats to real-time insights, these visuals shows how data engineering and visualization can change the way we understand the game.
-    -delivering visuals that highlight trends, player performance, and tactical insights.
-    -I also use this to monitor the performance of KRC Genk 😁.
+     - Dive into player performance analytics powered by the Microsoft Cloud.
+     - From raw stats to real-time insights, these visuals shows how data engineering and visualization can change the way we understand the game.
+     - Delivering visuals that highlight trends, player performance, and tactical insights.
+     - I also use this to monitor the performance of KRC Genk 😁.
     """
 )
 
