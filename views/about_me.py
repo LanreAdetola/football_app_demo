@@ -27,11 +27,10 @@ st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
 st.write(
     """
-    - Experienced in deriving actionable insights from complex data sets
-    - Proficient in **Python** and **SQL** for data analysis, automation, and reporting
-    - Strong understanding of **statistical principles** and their real-world applications
-    - Demonstrated ability to collaborate as a **team player** and take the **initiative** in driving projects to completion
-    - Familiar with key data visualization tools and techniques to communicate findings effectively
+    -Dive into player performance analytics powered by the Microsoft Cloud.
+    -From raw stats to real-time insights, these visuals shows how data engineering and visualization can change the way we understand the game.
+    -delivering visuals that highlight trends, player performance, and tactical insights.
+    -I also use this to monitor the performance of KRC Genk 😁.
     """
 )
 
