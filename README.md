@@ -1,47 +1,68 @@
-# Football App Demo
+# Football Analytics App
 
-This is a Streamlit-based web application for visualizing football data, specifically focused on Genk player and club profiles for the 2024/25 and 2025/26 seasons. The app provides a visual representation of the Jupiler Pro League, making complex football statistics easier to interpret than traditional tables with figures. It uses web scraping to gather data from FBref, ensuring up-to-date and comprehensive league and player information.
+A Streamlit-based web application for visualizing Belgian Jupiler Pro League football data, with a focus on KRC Genk. The app transforms complex football statistics into interactive visualizations, making analysis more intuitive than traditional tables.
+
+**Live demo**: [lanrefcanalytics.streamlit.app](https://lanrefcanalytics.streamlit.app/)
 
 ## Features
-- **About Me**: Information about the creator.
-- **Season 24-25**:
-  - Shooting Profiles
-  - Club Profile
-  - 2023/24 Genk Player Profiles
-- **Season 25-26**:
-  - Shooting Profiles
-  - Club Profile
- - **Jupiler Pro League Visualization**: Get interactive and graphical insights into league and player performance, making analysis more intuitive.
- - **Web Scraping from FBref**: Automatically fetches the latest football data for accurate and current visualizations.
+
+- **Season 25-26 & 24-25**: Shooting profiles and club performance breakdowns for both seasons
+- **Club Profile**: Player performance analysis by position with filters for position and minimum minutes played
+- **2023/24 Player Profiles**: Individual player analysis with xG tracking, shooting accuracy, and opponent breakdowns
+- **Season Comparison**: Side-by-side comparison of team metrics across seasons with delta tracking
+- **Interactive Charts**: All visualizations built with Plotly for hover tooltips, zoom, and pan
+- **Dark Theme**: Consistent dark styling across all charts and UI
+
+## Pages
+
+| Page | Description |
+|------|-------------|
+| About Me | Profile, skills, and contact info |
+| Shooting Profiles | League-wide shooting stats: goals, shots, accuracy matrix, penalties, conversion efficiency |
+| Club Profile | Genk squad breakdown by position: minutes, goals, assists with position/minutes filters |
+| Player Profiles | Individual player game logs with xG vs actual goals, opponent analysis |
+| Season Comparison | Compare any shooting metric (goals, shots, efficiency) between 24/25 and 25/26 |
 
 ## Directory Structure
+
 ```
-assets/                # Static assets (images, etc.)
-data/                  # Cleaned CSV data for players
-forms/                 # Form components (e.g., contact form)
-Miss/                  # Passing analysis
-views/                 # Streamlit view scripts for each page
-streamlit_app.py       # Main Streamlit app entry point
-requirements.txt       # Python dependencies
+streamlit_app.py       # Main app entry point and navigation
+utils.py               # Shared functions: data loaders, Plotly charts, theme constants
+views/                 # Page scripts (thin wrappers calling utils.py)
+forms/                 # Contact form component
+data/                  # CSV data files (shooting stats, squad stats, player logs)
+assets/                # Static assets (profile image)
+.streamlit/            # Streamlit theme configuration
 ```
 
 ## Getting Started
-1. **Install dependencies**:
+
+1. **Create a virtual environment**:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-2. **Run the app**:
+
+3. **Run the app**:
    ```bash
    streamlit run streamlit_app.py
    ```
 
-## Requirements
-- Python 3.8+
-- See `requirements.txt` for required packages
+## Data
 
-## Usage
-- The app provides navigation between different views for club and player profiles, shooting stats, and more.
-- Data is loaded from the `data/` directory and visualized using Matplotlib and Seaborn.
+Stats are sourced from [FBref](https://fbref.com/) and stored as CSV files in `data/`. FBref uses Cloudflare protection, so data is cached locally rather than scraped live. To refresh data, use the local `refresh_data.py` script which opens a real browser to bypass Cloudflare.
+
+## Tech Stack
+
+- **Streamlit** - Web framework
+- **Plotly** - Interactive visualizations
+- **Pandas / NumPy** - Data processing
 
 ## Author
-Made by Lanre.A
+
+Made by [Lanre Adetola](https://github.com/LanreAdetola)
