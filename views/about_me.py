@@ -1,6 +1,10 @@
 import streamlit as st
 
-from forms.contact import contact_form
+try:
+    from forms.contact import contact_form
+    _CONTACT_AVAILABLE = True
+except Exception:
+    _CONTACT_AVAILABLE = False
 
 @st.dialog("Contact Me")
 def show_contact_form():
@@ -12,12 +16,12 @@ with col1:
     st.image("assets/profilepic.png", width=230)
 with col2:
     st.title("Lanre Adetola", anchor=False)
-    
 
     st.write(
         "**Email**: r0913836@student.thomasmore.be"
     )
-    if st.button("Contact Me"):
+    st.markdown("[GitHub](https://github.com/LanreAdetola)")
+    if _CONTACT_AVAILABLE and st.button("Contact Me"):
         show_contact_form()
 
 

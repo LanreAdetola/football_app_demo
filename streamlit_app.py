@@ -1,11 +1,4 @@
-import os
 import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import re
-import requests
 
 #----Page Setup---
 about_page = st.Page(
@@ -40,7 +33,6 @@ project_25_page_1 = st.Page(
     page="views/shooting25.py",
     title="Shooting Profiles",
     icon=":material/bar_chart:",
-    
 )
 project_25_page_2 = st.Page(
     page="views/genk_dna_25.py",
@@ -48,15 +40,22 @@ project_25_page_2 = st.Page(
     icon=":material/bar_chart:",
 )
 
+#----Comparison------
+compare_page = st.Page(
+    page="views/season_compare.py",
+    title="Season Comparison",
+    icon=":material/compare_arrows:",
+)
 
 # --- Navigation -----
-pg = st.navigation( 
+pg = st.navigation(
     {
         "Info": [about_page],
         "Season 25-26": [project_25_page_1, project_25_page_2],
-         "Season 24-25": [project_1_page, project_2_page, project_3_page],
+        "Season 24-25": [project_1_page, project_2_page, project_3_page],
+        "Comparison": [compare_page],
     }
-         )
+)
 
 st.sidebar.text("Made by Lanre.A")
 

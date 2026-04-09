@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 import time  # Import time for delay
 
-WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
+WEBHOOK_URL = st.secrets.get("WEBHOOK_URL", "")
 
 def is_valid_email(email):
     email_pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
