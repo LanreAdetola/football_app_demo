@@ -1,0 +1,33 @@
+Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,Gls.1,Ast.1,G+A.1,G-PK.1,G+A-PK,Matches
+Mujaid Sadick,es ESP,DF,24,37,37,"3,305",36.7,1,0,1,1,0,0,7,1,0.03,0.00,0.03,0.03,0.03,Matches
+Matte Smets,be BEL,DF,20,38,37,"3,242",36.0,0,0,0,0,0,0,4,2,0.00,0.00,0.00,0.00,0.00,Matches
+Jarne Steuckers,be BEL,"MF,FW",22,37,37,"3,097",34.4,8,8,16,3,5,7,1,0,0.23,0.23,0.46,0.09,0.32,Matches
+Tolu Arokodare,ng NGA,FW,23,40,37,"3,061",34.0,21,5,26,21,0,2,2,0,0.62,0.15,0.76,0.62,0.76,Matches
+Joris Kayembe,cd COD,DF,29,39,36,"3,225",35.8,2,2,4,2,0,0,4,0,0.06,0.06,0.11,0.06,0.11,Matches
+Zakaria El Ouahdi,ma MAR,DF,22,36,35,"3,090",34.3,6,2,8,6,0,0,7,0,0.17,0.06,0.23,0.17,0.23,Matches
+Bryan Heynen,be BEL,MF,27,36,34,"3,071",34.1,0,2,2,0,0,0,6,0,0.00,0.06,0.06,0.00,0.06,Matches
+Christopher Bonsu-Baah,gh GHA,"MF,FW",19,38,29,"2,556",28.4,3,4,7,3,0,0,2,0,0.11,0.14,0.25,0.11,0.25,Matches
+Patrik Hrošovský,sk SVK,MF,32,34,25,"2,216",24.6,6,4,10,6,0,0,2,0,0.24,0.16,0.41,0.24,0.41,Matches
+Mike Penders,be BEL,GK,19,21,21,"1,889",21.0,0,0,0,0,0,0,2,1,0.00,0.00,0.00,0.00,0.00,Matches
+Konstantinos Karetsas,gr GRE,MF,16,34,20,"1,652",18.4,3,2,5,3,0,0,2,0,0.16,0.11,0.27,0.16,0.27,Matches
+Hendrik Van Crombrugge,be BEL,GK,31,19,19,"1,710",19.0,0,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,Matches
+Ibrahima Sory Bangoura,gn GUI,MF,20,31,19,"1,643",18.3,0,0,0,0,0,0,5,1,0.00,0.00,0.00,0.00,0.00,Matches
+Nikolas Sattlberger,at AUT,MF,20,27,18,"1,547",17.2,1,1,2,1,0,0,4,0,0.06,0.06,0.12,0.06,0.12,Matches
+Noah Adedeji,be BEL,MF,19,33,8,872,9.7,4,4,8,4,0,0,0,0,0.41,0.41,0.83,0.41,0.83,Matches
+Carlos Cuesta,co COL,DF,25,10,7,611,6.8,1,0,1,1,0,0,3,0,0.15,0.00,0.15,0.15,0.15,Matches
+Yira Sor,ng NGA,"MF,FW",24,24,6,758,8.4,2,5,7,2,0,0,0,0,0.24,0.59,0.83,0.24,0.83,Matches
+Ken Nkuba,be BEL,"DF,MF",22,21,6,582,6.5,0,1,1,0,0,0,3,0,0.00,0.15,0.15,0.00,0.15,Matches
+Oh Hyeon-gyu,kr KOR,FW,23,36,3,640,7.1,9,2,11,6,3,3,1,0,1.27,0.28,1.55,0.84,1.13,Matches
+Josué Kongolo,be BEL,DF,18,7,2,218,2.4,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Alieu Fadera,gm GAM,MF,22,2,2,180,2.0,0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,Matches
+Yaimar Medina,ec ECU,DF,19,3,1,121,1.3,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Bilal El Khannouss,ma MAR,MF,20,1,1,68,0.8,0,1,1,0,0,0,0,0,0.00,1.32,1.32,0.00,1.32,Matches
+Andi Zeqiri,ch SUI,FW,25,2,0,47,0.5,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Luca Oyen,be BEL,MF,21,2,0,4,0.0,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Thomas Claes,be BEL,MF,20,1,0,1,0.0,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Mark McKenzie,us USA,DF,25,1,0,1,0.0,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Adrián Palacios,ve VEN,DF,20,1,0,1,0.0,0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,Matches
+Lucca Brughmans,be BEL,GK,16,0,0,,,,,,,,,,,,,,,,Matches
+Robin Mirisola,be BEL,FW,17,0,0,,,,,,,,,,,,,,,,Matches
+Kayden Pierre,us USA,DF,21,0,0,,,,,,,,,,,,,,,,Matches
+Olivier Vliegen,be BEL,GK,25,0,0,,,,,,,,,,,,,,,,Matches

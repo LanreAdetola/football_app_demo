@@ -1,5 +1,4 @@
-import streamlit as st 
-import requests 
+import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -8,13 +7,12 @@ from adjustText import adjust_text
 st.title('Jupiler Pro League 25/26 - Shooting Stats')
 
 
-url = "https://fbref.com/en/comps/37/shooting/Belgian-Pro-League-Stats#all_stats_shooting"
+import os
 
-
-#Loading Data from the url
+#Loading Data from cached CSV (FBref is behind Cloudflare protection)
 pd.set_option('display.max_columns', None)
-html = pd.read_html(url, header=1)
-df = html[0]
+csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'shooting25.csv')
+df = pd.read_csv(csv_path)
 
 #raw dataframe
 #st.dataframe(df)

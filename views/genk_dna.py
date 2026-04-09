@@ -5,13 +5,15 @@ import numpy as np
 
 st.title("Jupiler Pro League - Player Performance Breakdown")
 
-url = "https://fbref.com/en/squads/1e972a99/2024-2025/Genk-Stats"  # Example URL
+import os
 
-# Load and preprocess data
+# Load and preprocess data from cached CSV (FBref is behind Cloudflare protection)
 pd.set_option('display.max_columns', None)
-html = pd.read_html(url, header=1)
-df = html[0]
-df = df[:-2]  # Drop the last two rows for cleaner data
+csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'genk_dna24.csv')
+df = pd.read_csv(csv_path)
+df['Min'] = pd.to_numeric(df['Min'].astype(str).str.replace(',', ''), errors='coerce')
+df['Gls'] = pd.to_numeric(df['Gls'], errors='coerce')
+df['Ast'] = pd.to_numeric(df['Ast'], errors='coerce')
 
 # Ensure we are working with a copy of the DataFrame slice
 df = df.copy()
