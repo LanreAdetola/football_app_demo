@@ -3,3 +3,4 @@
 debugger.ipynb
 venv/
 .playwright-mcp/
+refresh_data.py
